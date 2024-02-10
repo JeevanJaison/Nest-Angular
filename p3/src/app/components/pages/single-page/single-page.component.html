@@ -1,0 +1,21 @@
+<app-nav></app-nav>
+<div class="container">
+    <div class="row">
+        <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+            <img src="{{data.image}}" alt="">
+        </div>
+        <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+            <h2 class="text-center">{{data.title}}</h2>
+            <br>
+            <p class="cat">Category: {{data.category}}</p>
+            <p class="text-center">{{data.description}}"</p>
+            <br>
+            <br>
+            <p class="text-center rat">Rating: {{data.rating.rate}}</p>
+            <br>
+            <p class="text-center pri">${{data.price}}</p>
+
+        </div>
+    </div>
+</div>
+<app-footer></app-footer>
