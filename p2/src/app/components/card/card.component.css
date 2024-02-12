@@ -1,0 +1,19 @@
+.card {
+    margin: 5px;
+    border-radius: 20px;
+}
+
+.bt {
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    /* padding: 10px; */
+}
+
+img {
+    padding: 10px;
+
+}
+
+.accordion {
+    z-index: 1;
+}

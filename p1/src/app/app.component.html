@@ -1,0 +1,10 @@
+<app-floor></app-floor>
+<h2>By {{name}}</h2>
+<br>
+<div class="container py-5">
+    <label for="">Email</label>
+    <input type="text" [(ngModel)]="email" name="Hello">
+</div>
+
+<h3>Your email is {{email}}</h3>
+<button class="button-64" role="button" (click)="handleClick()"><span class="text">Approve</span></button>
